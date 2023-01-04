@@ -1,11 +1,14 @@
 
 import './App.css';
-import MyNavbar from './components/Navbar';
+import About from './components/About/About';
+import Intro from './components/intro/Intro';
+
 
 function App() {
   return (
     <>
-      <MyNavbar />
+      <Intro />
+      <About />
     </>
   );
 }
