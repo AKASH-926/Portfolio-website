@@ -1,6 +1,6 @@
 import React from 'react'
 import './Intro.css'
-import Me from '../../img/me image.png'
+import astro from '../../img/astro.png'
 const Intro = () => {
     return (
         <div className='i'>
@@ -31,7 +31,7 @@ const Intro = () => {
             <div className="i-right">
                 <div className="i-bg"></div>
                 <div className="i-img">
-                    {/* <img src={Me} alt="" /> */}
+                    <img src={astro} alt="" />
                 </div>
             </div>
         </div>
