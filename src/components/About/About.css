@@ -54,3 +54,49 @@
 .a-desc{
     text-align: justify;
 }
+
+
+@media screen and (max-width:480px) {
+    .a {
+        flex-direction: column;
+        text-align: center;
+        /* margin-top: 50px; */
+    }
+.a-left{
+    width: 100%;
+
+}
+.a-card{
+    height: 30vh;
+}
+.a-card-bg{
+    height: 30vh;
+}
+.a-card.bg {
+    position: absolute;
+    top: 40px;
+    left: 105px;
+    background-color: rgb(74, 74, 74);
+}
+.a-card{
+    width: 50%;
+    height: 30vh;
+    border-radius: 30px;
+    position: absolute;
+    top: 40px;
+        left: 105px;
+       box-shadow: -6px -6px rgba(103, 206, 120, 0.803);
+}
+.a-card-bg{
+    width: 50%;
+    height: 30vh;
+    border-radius: 30px;
+    position: absolute;
+    top: 40px;
+        left: 98px;
+}
+.a-desc {
+    text-align: justify;
+    padding: 5px;
+}
+}

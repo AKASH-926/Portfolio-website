@@ -8,9 +8,12 @@ const Intro = () => {
                 <div className="i-left-wrapper">
                     <h2 className='i-intro'>Hello, My name is</h2>
                     <h1 className='i-name'>AKASH A P</h1>
+                    <p className="i-desc">
+                        I am a MERN  full stack developer. I have a passion for building modern and efficient web applications that are both user-friendly and visually appealing. I have had the experience to work on a some  of major and minor projects.
+                    </p>
                     <div className="i-title">
                         <div className="i-title-wrapper">
-                            <div className="i-title-item">MERN Full Stack Developer</div>
+                            <div className="i-title-item">MERN Stack Developer</div>
                             <div className="i-title-item">Data Structure & Algos</div>
                             <div className="i-title-item">HTML</div>
                             <div className="i-title-item">CSS</div>
@@ -22,9 +25,7 @@ const Intro = () => {
                             <div className="i-title-item">GIT/GIT HUB</div>
                         </div>
                     </div>
-                    <p className="i-desc">
-                        I design and develop services for customers of all sizes, specializing in creating stylish,modern websites,web services and online stores
-                    </p>
+
                 </div>
 
             </div>

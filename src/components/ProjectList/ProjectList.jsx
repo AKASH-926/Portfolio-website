@@ -7,19 +7,21 @@ export const ProjectList = () => {
         <div className='pl'>
             <div className="pl-texts">
                 <h1 className="pl-title">
-                    Create & inspire.It's Akash
+                    Create & inspire
                 </h1>
-                <p className="pl-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-                    in enim! Veritatis saepe reiciendis hic autem error repellendus officia odit?</p>
+                <p className="pl-desc"> "Unleashing the Potential of a Full Stack Development  with some of my projects "</p>
             </div>
             <div className="pl-list">
                 {projects.map((item) => {
                     return (
-                        <Projects key={item.id} img={item.img} link={item.link} />
+                        <>
+                            <Projects key={item.id} img={item.img} link={item.link} pname={item.pname} />
+
+                        </>
+
+
                     )
                 })}
-
-
             </div>
         </div>
     )

@@ -19,7 +19,7 @@
     width: 6px;
     height: 6px;
    border-radius: 50%;
-   background-color: white;
+   background-color: rgb(172, 170, 170);
    margin: 3px;
 }
 .p-img{
@@ -28,4 +28,20 @@
 }
 .p:hover .p-img{
     transform: translateY(-100%);
+}
+
+.p-name {
+
+    position: absolute;
+    right: 0;
+    color: rgb(137, 137, 137);
+}
+
+@media screen and (max-width:480px) {
+.p{
+    width: 80%;
+    height: 23vh;
+
+}
+
 }

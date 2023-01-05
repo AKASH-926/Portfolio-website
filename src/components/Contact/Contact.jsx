@@ -25,7 +25,7 @@ export const Contact = () => {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className="c-title">Let's discuss your project</h1>
+                    <h1 className="c-title">Let's get connected!!</h1>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={mail} alt="" className="c-icon" />
@@ -42,7 +42,7 @@ export const Contact = () => {
                     </div>
                 </div>
                 <div className="c-right">
-                    <p className='c-desc'> <b>Hey, You can drop me your Queries here!! feel free to connect me</b></p>
+                    <p className='c-desc'> <b>Hey,If you have any questions or feedback, please don't hesitate to reach out.</b></p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{ backgroundColor: darkmode && '#333', borderBottom: darkmode && '1px solid grey' }} type="text" name="user_name" placeholder='Name' />
                         <input style={{ backgroundColor: darkmode && '#333', borderBottom: darkmode && '1px solid grey' }} type="text" name="user_subject" placeholder='Subject' />
