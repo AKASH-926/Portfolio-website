@@ -13,15 +13,15 @@ export const projects = [
     },
     {
         id: 3,
-        img: '/contact_manager.jpg',
-        link: 'https://contact-manager-app-akash.onrender.com',
-        pname: 'Contact Manager App'
+        img: '/todo.jpg',
+        link: 'https://to-do-app-3bcn.onrender.com/',
+        pname: 'TO-Do App'
     },
     {
         id: 4,
-        img: '/contact_manager.jpg',
-        link: 'https://contact-manager-app-akash.onrender.com',
-        pname: 'Contact Manager App'
+        img: '/blog.jpg',
+        link: 'https://blogapp-akash-ap.onrender.com',
+        pname: 'Blog App'
     },
 
 ]

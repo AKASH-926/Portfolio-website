@@ -3,6 +3,7 @@ import './Contact.css'
 import mail from '../../img/email.png'
 import linkedin from '../../img/linkedin.png'
 import location from '../../img/location.png'
+import github from '../../img/github.png'
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context'
 export const Contact = () => {
@@ -34,6 +35,10 @@ export const Contact = () => {
                         <div className="c-info-item">
                             <img src={linkedin} alt="" className="c-icon" />
                             www.linkedin.com/in/akash-ap-61126b14a
+                        </div>
+                        <div className="c-info-item">
+                            <img src={github} alt="" className="c-icon" />
+                            https://github.com/AKASH-926
                         </div>
                         <div className="c-info-item">
                             <img src={location} alt="" className="c-icon" />
