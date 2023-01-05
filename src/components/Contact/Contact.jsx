@@ -34,11 +34,11 @@ export const Contact = () => {
                         </div>
                         <div className="c-info-item">
                             <img src={linkedin} alt="" className="c-icon" />
-                            <a href="www.linkedin.com/in/akash-ap-61126b14a"> www.linkedin.com/in/akash-ap-61126b14a</a>
+                            <a style={{ color: darkmode && 'white' }} href="www.linkedin.com/in/akash-ap-61126b14a"> www.linkedin.com/in/akash-ap-61126b14a</a>
                         </div>
                         <div className="c-info-item">
                             <img src={github} alt="" className="c-icon" />
-                            <a href="https://github.com/AKASH-926">https://github.com/AKASH-926</a>
+                            <a style={{ color: darkmode && 'white' }} href="https://github.com/AKASH-926">https://github.com/AKASH-926</a>
                         </div>
                         <div className="c-info-item">
                             <img src={location} alt="" className="c-icon" />

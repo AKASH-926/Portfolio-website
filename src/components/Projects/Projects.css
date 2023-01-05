@@ -36,10 +36,7 @@
     right: 0;
     color: rgb(137, 137, 137);
 }
-a{
-    color: white;
-    text-decoration: none;
-}
+
 
 @media screen and (max-width:480px) {
 .p{
