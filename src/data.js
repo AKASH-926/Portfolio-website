@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        img: '/contactmanager2.jpg',
+        img: '/contactmanager.jpg',
         link: 'https://contact-manager-app-akash.onrender.com',
         pname: 'Contact Manager'
     },
