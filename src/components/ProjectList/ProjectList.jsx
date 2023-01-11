@@ -10,6 +10,7 @@ export const ProjectList = () => {
                     Create & inspire
                 </h1>
                 <p className="pl-desc"> "Unleashing the Potential of a Full Stack Development  with some of my projects "</p>
+                <p className="pl-desc col-grey"> *Best view in Desktop site</p>
             </div>
             <div className="pl-list">
                 {projects.map((item) => {
